@@ -1,3 +1,5 @@
+Updated setup.sh for Ubutnu 20 and Kali 2021
+
 # Firmware Analysis Toolkit 
 
 FAT is a toolkit built in order to help security researchers analyze and identify vulnerabilities in IoT and embedded device firmware. This is built in order to use for the "*[Offensive IoT Exploitation](https://www.attify-store.com/collections/training/products/offensive-iot-exploitation)*" training conducted by [Attify](https://attify.com). 
@@ -20,11 +22,6 @@ FAT is developed in Python 3. However you need to have both Python 3 and Python 
 
 To install just clone the repository and run the script `./setup.sh`.
 
-```
-git clone https://github.com/attify/firmware-analysis-toolkit
-cd firmware-analysis-toolkit
-./setup.sh
-```
 
 After installation is completed, edit the file `fat.config` and provide the sudo password as shown below. Firmadyne requires sudo privileges for some of its operations. The sudo password is provided to automate the process.
 
